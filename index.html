@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Let's Dice</title>
+</head>
+<body>
+    <div>
+        <!-- for heading only -->
+        <p id="bigHeading" class="center">Refresh Me</p>
+    </div>
+
+    <div class="sidebyside">
+        <!-- for main part -->
+        <div class="smallbox updown">
+            <h1>Player 1</h1>
+            <img id="leftImage" src="6.png" alt="dice">
+            <!-- for left side user -->
+        </div>
+        <div class="smallbox updown">
+            <h1>Player 2</h1>
+            <img id="rightImage" src="6.png" alt="dice">
+            <!-- for right side user -->
+        </div>
+    </div>
+
+    <div>
+        <button class="bigbtn" onclick="changeImage()">Roll</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
